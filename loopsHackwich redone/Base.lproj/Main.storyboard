@@ -29,7 +29,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmh-A4-1vW">
                                         <rect key="frame" x="0.0" y="653" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 1"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Array 1">
+                                            <color key="baseBackgroundColor" red="0.71067732572555542" green="0.94467395544052124" blue="0.033920146524906158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="whenArray1ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fr5-r9-OIe"/>
                                         </connections>
@@ -37,7 +39,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-Qx-NFf">
                                         <rect key="frame" x="0.0" y="684" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 2"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Array 2">
+                                            <color key="baseBackgroundColor" red="0.23264798521995544" green="0.99248474836349487" blue="0.0056931939907371998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="whenArray2ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rSk-DO-KrJ"/>
                                         </connections>
@@ -45,7 +49,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qe-fD-M7q">
                                         <rect key="frame" x="0.0" y="715" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 3"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Array 3">
+                                            <color key="baseBackgroundColor" red="0.18123403191566467" green="0.87331825494766235" blue="0.058879829943180084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="whenArray3ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1ZZ-yZ-gvw"/>
                                         </connections>
@@ -53,7 +59,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eo4-En-sD3">
                                         <rect key="frame" x="0.0" y="746" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Array 4"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Array 4">
+                                            <color key="baseBackgroundColor" red="0.38163468241691589" green="0.52707958221435547" blue="0.088685579597949982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="whenArray4ButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hHt-iz-rwV"/>
                                         </connections>
@@ -61,7 +69,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-kP-3aa">
                                         <rect key="frame" x="0.0" y="777" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="filled" title="Dictionary "/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Dictionary ">
+                                            <color key="baseBackgroundColor" red="0.10045372694730759" green="0.44063484668731689" blue="0.086907245218753815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </buttonConfiguration>
                                         <connections>
                                             <action selector="whenDictionaryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7QN-zO-H7e"/>
                                         </connections>
