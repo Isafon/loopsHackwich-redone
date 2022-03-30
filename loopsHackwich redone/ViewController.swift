@@ -56,13 +56,18 @@ class ViewController: UIViewController {
         textView.text = output
     }
     
+    @IBAction func onJoinButtonPressed(_ sender: UIButton) {
+        let output = animals.joined(separator: " , ")
+        textView.text = output
+    }
+    
 //ALL VARIABLES (ARRAYS):
     var fruit = ["apple", "pear", "peach", "strawberry"]
-    var veggies = ["tomato", "carrot", "pea", "pepper"]
+    var veggies = ["lettuce", "carrot", "pea", "pepper"]
     var drinks = ["tea", "coffee", "milk", "soda"]
     var snacks = ["chips", "granola", "nuts", "popcorn"]
     var contact = ["name":"Tom", "address":"123 Fake Street","phone":"123-1234"]
-    
+    var animals = ["dog", "cat", "bird"]
     
     
     

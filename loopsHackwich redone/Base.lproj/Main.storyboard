@@ -20,14 +20,14 @@
                                 <rect key="frame" x="5" y="49" width="404" height="808"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jo0-r0-5zA">
-                                        <rect key="frame" x="0.0" y="0.0" width="404" height="653"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="404" height="622"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <color key="textColor" systemColor="labelColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmh-A4-1vW">
-                                        <rect key="frame" x="0.0" y="653" width="404" height="31"/>
+                                        <rect key="frame" x="0.0" y="622" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Array 1">
                                             <color key="baseBackgroundColor" red="0.71067732572555542" green="0.94467395544052124" blue="0.033920146524906158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,7 +37,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Df0-Qx-NFf">
-                                        <rect key="frame" x="0.0" y="684" width="404" height="31"/>
+                                        <rect key="frame" x="0.0" y="653" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Array 2">
                                             <color key="baseBackgroundColor" red="0.23264798521995544" green="0.99248474836349487" blue="0.0056931939907371998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -47,7 +47,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Qe-fD-M7q">
-                                        <rect key="frame" x="0.0" y="715" width="404" height="31"/>
+                                        <rect key="frame" x="0.0" y="684" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Array 3">
                                             <color key="baseBackgroundColor" red="0.18123403191566467" green="0.87331825494766235" blue="0.058879829943180084" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -57,7 +57,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eo4-En-sD3">
-                                        <rect key="frame" x="0.0" y="746" width="404" height="31"/>
+                                        <rect key="frame" x="0.0" y="715" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Array 4">
                                             <color key="baseBackgroundColor" red="0.38163468241691589" green="0.52707958221435547" blue="0.088685579597949982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -67,13 +67,23 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPL-kP-3aa">
-                                        <rect key="frame" x="0.0" y="777" width="404" height="31"/>
+                                        <rect key="frame" x="0.0" y="746" width="404" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="Dictionary ">
                                             <color key="baseBackgroundColor" red="0.10045372694730759" green="0.44063484668731689" blue="0.086907245218753815" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="whenDictionaryButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7QN-zO-H7e"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be9-fP-fEX">
+                                        <rect key="frame" x="0.0" y="777" width="404" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="JOINED LOOP">
+                                            <color key="baseBackgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="onJoinButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FOj-7T-Nfa"/>
                                         </connections>
                                     </button>
                                 </subviews>
